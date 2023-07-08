@@ -1,0 +1,32 @@
+.app__pokemons {
+    padding: 4rem 0;
+    position: relative;
+    background: linear-gradient(#e2f7f1, #ffffff);
+
+    .app__pokemons-bg {
+        position: absolute;
+        right: -6rem;
+        top: -6rem;
+    }
+
+    .app__pokemons-btn {
+        z-index: 25;
+
+        button {
+            padding: 0.4rem 1.8rem;
+            border: none;
+            color: #fff;
+            font-weight: 500;
+            text-transform: capitalize;
+            border-radius: 1rem;
+        }
+
+        .nextBtn {
+            background-color: rgb(69, 145, 69);
+        }
+
+        .prevBtn {
+            background-color: rgb(195, 104, 14);
+        }
+    }
+}

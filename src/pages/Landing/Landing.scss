@@ -1,0 +1,71 @@
+.app__landing {
+    position: relative;
+    background-image: url(../../assets/backLanding1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    padding: 8rem 0 5rem;
+    align-items: center;
+    color: #f1f1f1;
+
+    img.header-bg {
+        position: absolute;
+        top: -1rem;
+        right: -2rem;
+        width: 10rem;
+        opacity: 0.7;
+    }
+
+    h1 {
+        font-weight: 700;
+    }
+
+    .landing-links {
+        position: relative;
+        display: block;
+        width: 25rem;
+        margin-top: 2rem;
+        padding: 2rem 1rem;
+        text-decoration: none;
+        border-radius: 1.4rem;
+        color: #f1f1f1;
+        font-weight: 700;
+        font-size: 1.2rem;
+        transition: all 0.3s ease;
+        overflow: hidden;
+
+        span {
+            margin: 0;
+        }
+
+        .arrow-right {
+            font-size: 2rem;
+            margin-top: -10px;
+            margin-right: 1rem;
+        }
+
+        &.link-1 {
+            background-color: #f9d623;
+            box-shadow: -0.5rem 1rem 1rem rgba(246, 254, 1, 0.3);
+        }
+
+        &.link-2 {
+            background-color: #308943;
+            box-shadow: -0.5rem 1rem 1rem rgba(52, 255, 1, 0.3);
+        }
+
+        &:hover {
+            transform: scale(1.0534);
+        }
+
+        img {
+            position: absolute;
+            right: -1.4rem;
+            width: 7rem;
+            top: -0.5rem;
+            transform: rotate(10deg);
+            opacity: 0.7;
+        }
+    }
+}

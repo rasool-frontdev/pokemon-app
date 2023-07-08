@@ -1,0 +1,44 @@
+.app__pokemon {
+  .pok-name {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #fff;
+    text-transform: capitalize;
+  }
+
+  .pok__types-name {
+    font-size: 1.3rem;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin-right: 1rem;
+    padding: 0.3rem 1.5rem;
+    border-radius: 1.5rem;
+  }
+
+  .pok-id {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #fff;
+  }
+
+  .app__pokemon-img {
+    position: relative;
+    width: 20rem;
+    height: 20rem;
+    margin: 0 auto;
+    transform: scale(0.8);
+    z-index: 5;
+
+    img {
+      width: 100%;
+      object-fit: cover;
+      margin-bottom: 1rem;
+    }
+  }
+
+  .pokemon-infos {
+    border-radius: 3rem;
+    position: relative;
+    bottom: 3rem;
+  }
+}
